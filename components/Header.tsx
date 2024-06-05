@@ -1,5 +1,4 @@
 import Link from "next/link.js";
-import { Button } from "./ui/button";
 
 // components
 import { Nav } from "./Nav";
@@ -15,7 +14,11 @@ export const Header = () => {
         </Link>
         {/* desktop nav & hire me button*/}
         <div className="hidden xl:flex">
-          <h1>sldjaslkdjasd</h1>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi
+            iusto voluptates sint soluta nostrum perferendis exercitationem
+            laborum officiis hic.
+          </h1>
           <Nav />
         </div>
       </div>
