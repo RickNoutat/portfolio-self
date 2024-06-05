@@ -14,16 +14,10 @@ export const Header = () => {
         </Link>
         {/* desktop nav & hire me button*/}
         <div className="hidden xl:flex">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi
-            iusto voluptates sint soluta nostrum perferendis exercitationem
-            laborum officiis hic.
-          </h1>
           <Nav />
+          <Link href="/"></Link>
         </div>
       </div>
     </header>
   );
 };
-
-export default Header;
