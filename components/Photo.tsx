@@ -34,9 +34,9 @@ export const Photo = () => {
             src="/assets/photo.png"
             priority
             quality={100}
-            fill
             alt=""
             className="object-contain"
+            fill
           />
         </motion.div>
 
